@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<RCC>
+ <qresource prefix="/theme">
+  <file alias="dragons_end.qss">dragons_end.qss</file>
+  <file alias="icons/chevron-down.png">icons/chevron-down.png</file>
+  <file alias="icons/chevron-up.png">icons/chevron-up.png</file>
+  <file alias="icons/chevron-down-disabled.png">icons/chevron-down-disabled.png</file>
+  <file alias="icons/chevron-up-disabled.png">icons/chevron-up-disabled.png</file>
+  <file alias="icons/check-white.png">icons/check-white.png</file>
+  <file alias="icons/minus-white.png">icons/minus-white.png</file>
+  <file alias="icons/radio-white.png">icons/radio-white.png</file>
+ </qresource>
+</RCC>
