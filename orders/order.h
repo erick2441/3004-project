@@ -225,13 +225,12 @@ public:
 
 
     int calculateTaxCents(int taxRatePercent) const {
-        //validates the tax rate and calculates rounded tax on the full pre-tax subtotal
+        // Calculate tax on the pre-tax subtotal in whole cents.
         if (taxRatePercent < 0 || taxRatePercent > 100) {
             throw std::invalid_argument("invalid tax rate.");
         }
         int subtotal = getSubtotalCents();
-        return (subtotal / 100) * taxRatePercent +
-               ((subtotal % 100) * taxRatePercent + 50) / 100;
+        return subtotal * taxRatePercent / 100;
     }
 
 
